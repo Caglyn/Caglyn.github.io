@@ -1,0 +1,43 @@
+.advertisement
+{
+	width:100px;
+	height:150px; 
+	border-color:black;
+	border-width:2px; 
+	background-color:gray; 
+	color:white;
+	position: relative;
+	bottom: 550px;
+}
+
+.image
+{
+	width: 250px;
+	float: left;
+	clear: both;
+}
+
+.logo
+{
+	float: left;
+	margin-left: 10%;
+	position: relative;
+}
+
+.content
+{
+	width: 70%;
+	clear: both;
+	text-align: justify;
+	margin-left: 15%;
+}
+
+.head
+{
+	margin-left: 50%;
+}
+
+.title
+{
+	margin-left: 45%;
+}
