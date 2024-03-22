@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3f3;
+}
+header {
+    color:#353465;
+    padding: 10px;
+    text-align: center;
+    background-image: url('inception.jpg'), url('oppenheimer.jpg'), url('interstellar.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: -50px 0, 485px 0, 1025px 0;
+}
+#title{
+    color: #353465;
+    text-align: center;
+    font-family: Deneme;
+    font-size: 70px;
+    opacity: 1.0;
+}
+div.transbox {
+    font-family: Deneme;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 10px solid #353465;
+    opacity: 0.85;
+    display: inline-block;
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  div.transbox p {
+    color: #26254c;
+    text-align: center;
+    font-family: Deneme;
+    font-size: 70px;
+    opacity: 1.0;
+    font-weight: bold;
+    
+  }
+/* Internetten font indirip değiştirebiliriz*/
+@font-face {
+    font-family: Deneme;
+    src: url('BellotaText-Bold.ttf');
+}
+
+#page{
+    color: #26254c;
+    text-align: center;
+}
+
+#searchInput {
+    position: absolute;
+    top: 460px;
+    right: 460px;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border-width: 4px;
+    border-color: #353465;
+    border-style:solid;
+}
+#welcome{
+    color: #26254c;
+    text-align: center;
+
+}
+#wtext{
+    color: #26254c;
+    text-align: center;
+
+}
+#quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #26254c;
+    font-family: Deneme;
+    display: inline-block;
+    vertical-align: top; /* Align the text to the top of the image */
+    width: calc(50% - 20px); /* Adjust width as needed */
+    margin-left: 20px; /* Add some space between the image and the text */
+}
+
+#photo {
+    display: inline-block;
+    vertical-align: top; /* Align the image to the top of the text */
+    width: 45%; /* Adjust width as needed */
+}
+
+nav {
+    background-color: #353465;
+    padding: 15px;
+    text-align: right;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+}
+main {
+    padding: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.image-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly along the main axis */
+    width: 50%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: none; /* Add padding around the images */
+    border: 1px solid #ccc; /* Add a border around the container */
+}
+
+.image-container img {
+    width: calc(25% - 10px); /* Adjust width of images */
+    height: auto; /* Maintain aspect ratio */
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #353465;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
