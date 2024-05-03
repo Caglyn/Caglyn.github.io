@@ -1,0 +1,12 @@
+#div {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+label{
+    display: inline-block;
+    width: 250px;
+}
+input {
+  display: inline-block;
+}
