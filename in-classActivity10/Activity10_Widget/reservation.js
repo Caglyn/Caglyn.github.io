@@ -4,6 +4,26 @@ $(document).ready(function() {
 	// move the focus to the first text box
 	$("#arrival_date").focus();
 	
+
+		// set up tabs widget
+		$(".tabs").tabs();
+
+		// set up datepicker for arrival date
+		$("#arrival_date").datepicker({
+			minDate: 0, // Current date
+			maxDate: "+90D", // 90 days from the current date
+			dateFormat: "yy-mm-dd"
+		});
+
+		// event handler for policies button
+		$("#policies").click(function() {
+			$("#dialog").dialog({
+				modal: true,
+				width: 500
+			});
+		});
+	
+
 	// the handler for the submit event of the form
 	// executed when the submit button is clicked
 	$("#reservation_form").submit(
