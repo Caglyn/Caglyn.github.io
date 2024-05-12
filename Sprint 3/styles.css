@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3f3;
+}
+header {
+    color:#353465;
+    padding: 10px;
+    text-align: center;
+    background-image: url('inception.jpg'), url('oppenheimer.jpg'), url('interstellar.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: -50px 0, 485px 0, 1025px 0;
+}
+#title{
+    color: #353465;
+    text-align: center;
+    font-family: Deneme;
+    font-size: 70px;
+    opacity: 1.0;
+}
+/* Used to style the image and header elements above the bar which exists in all pages*/
+div.transbox {
+    font-family: Deneme;
+    margin: 30px;
+    background-color: #ffffff;
+    border: 10px solid #353465;
+    opacity: 0.85;
+    display: inline-block;
+    background-color: #ccc;
+    padding: 20px;
+  }
+  
+  div.transbox p {
+    color: #26254c;
+    text-align: center;
+    font-family: Deneme;
+    font-size: 70px;
+    opacity: 1.0;
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: Deneme;
+    src: url('BellotaText-Bold.ttf');
+}
+
+#page{
+    color: #26254c;
+    text-align: center;
+}
+
+#searchInput {
+    position: absolute;
+    top: 460px;
+    right: 460px;
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    font-size: 16px;
+    border-width: 4px;
+    border-color: #353465;
+    border-style:solid;
+}
+#welcome{
+    color: #26254c;
+    text-align: center;
+
+}
+#wtext{
+    color: #26254c;
+    text-align: center;
+
+}
+#quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #26254c;
+    font-family: Deneme;
+    display: inline-block;
+    vertical-align: top; 
+    width: calc(50% - 20px);
+    margin-left: 20px; 
+}
+
+#photo {
+    display: inline-block;
+    vertical-align: top; 
+    width: 45%; 
+}
+
+nav {
+    background-color: #353465;
+    padding: 15px;
+    text-align: right;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+}
+main {
+    padding: 20px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    width: 50%;
+    margin: 0 auto; 
+    padding: none;
+    border: 1px solid #ccc; 
+}
+
+.image-container img {
+    width: calc(25% - 10px);
+    height: auto; 
+    opacity: 0.5;
+}
+
+footer {
+    background-color: #353465;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 250px;
+}
+
+.film-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    margin: 0 auto; 
+    padding: 0; 
+}
+
+/* deciding the size of the film elements such that in every line there are 2 films */
+.film-container .image-container {
+    width: calc(45% - 10px); 
+    margin: 10px; 
+     
+}
+
+
+.film-container img {
+    width: 50%; 
+    height: auto; 
+    opacity: 1;
+}
+
+/*Setting the colors of tabs element taht will change on hover*/
+.film_info  a:hover{
+        color: #fff; 
+        background: #353465; 
+
+}
+
+/*Setting the colors of the tabs plugin element*/
+.film_info  a{
+
+    color: #fff; 
+    background: #9f9edb; 
+
+}
+
+/*Setting the colors of the accordion plugin element*/
+#awards_info h3 {
+    color: #242441; 
+    background: #9f9edb; 
+
+}
+
+#dialog-info {
+    background-color: #6966a3;
+    color: #fff;
+    padding: 10px;
+}
+
+.no-close .ui-dialog-titlebar-close {
+    display: none
+}
