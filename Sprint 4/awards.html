@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Necessary links and tags for ui and jquery elements-->
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "jquery-ui.css" />
+    <link rel="stylesheet" href="styles.css">
+    <script type = "text/javascript" src = "jquery.js"></script>
+    <script type = "text/javascript" src = "jquery-ui.js"></script>
+    <script type = "text/javascript" src = "search.js"></script>
+    <title>Awards</title>
+</head>
+<body>
+
+    <header>
+        <div class="background">
+            <div class="transbox">
+              <p >Welcome to NOLAN's world!</p>
+            </div>
+          </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="biography.html">Biography</a>
+        <a href="filmography.html">Filmography</a>
+        <a href="awards.html">Awards</a>
+    </nav>
+
+    <main>
+        <div class="header">
+            <h1 id="page">AWARDS</h1>
+        </div>
+        <!-- There is a single div to create the accordion plugin here. Each header is an elemnt for the accordion plugin.Their contents are 
+        placed in seperate divs as well.-->
+        <div id="awards_info">
+            <h3>Academy Awards</h3>
+            <div class="awards_content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2002</td>
+                            <td>Best Original Screenplay</td>
+                            <td>Memento</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2011</td>
+                            <td>Best Picture</td>
+                            <td rowspan="2">Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Original Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2018</td>
+                            <td>Best Picture</td>
+                            <td rowspan="2">Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">2024</td>
+                            <td>Best Picture</td>
+                            <td rowspan="3">Oppenheimer</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Adapted Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>BAFTA Awards</h3>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">2010</td>
+                            <td>Best Film</td>
+                            <td rowspan="3">Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Original Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2017</td>
+                            <td>Best Film</td>
+                            <td rowspan="2">Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">2023</td>
+                            <td>Best Film</td>
+                            <td rowspan="3">Oppenheimer</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Adapted Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <h3>Golden Globes Awards</h3>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2002</td>
+                            <td>Best Screenplay</td>
+                            <td>Memento</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2011</td>
+                            <td>Best Director</td>
+                            <td rowspan="2">Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>Best Director</td>
+                            <td>Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2024</td>
+                            <td>Best Director</td>
+                            <td rowspan="2">Oppenheimer</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                    </tbody>
+                </table>       
+            </div>
+            <h3>Other Awards</h3>
+            <div>
+                <h4>Directors Guild of America Awards</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2001</td>
+                            <td rowspan="5">Outstanding Directorial Achievement in Motion Pictures</td>
+                            <td>Memento</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>The Dark Knight</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>Oppenheimer</td>
+                            <td class="won">Won</td>
+                        </tr>
+                    </tbody>
+                </table>   
+
+                <h4>Producers Guild of America Awards</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2008</td>
+                            <td rowspan="4">Best Theatrical Motion Pictures</td>
+                            <td>The Dark Knight</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>Oppenheimer</td>
+                            <td class="won">Won</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Writers Guild of America Awards</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2008</td>
+                            <td>Best Adapted Screenplay</td>
+                            <td>The Dark Knight</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>2010</td>
+                            <td>Best Original Screenplay</td>
+                            <td>Inception</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>2023</td>
+                            <td>Best Original Screenplay</td>
+                            <td>Oppenheimer</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h4>Critics Choice Awards</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Category</th>
+                            <th>Nominated work</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">2009</td>
+                            <td>Best Picture</td>
+                            <td rowspan="2">The Dark Knight</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">2011</td>
+                            <td>Best Picture</td>
+                            <td rowspan="3">Inception</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Original Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">2018</td>
+                            <td>Best Picture</td>
+                            <td rowspan="2">Dunkirk</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">2024</td>
+                            <td>Best Picture</td>
+                            <td rowspan="3">Inception</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Director</td>
+                            <td class="won">Won</td>
+                        </tr>
+                        <tr>
+                            <td>Best Adapted Screenplay</td>
+                            <td class="nominated">Nominated</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+        <a href="subscribe.html">Subscribe us</a>
+    </footer>
+
+</body>
+</html>
